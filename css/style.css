@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width:1280px;
+    width: 100%;
+    height: 1000px; 
+    background-color: black;
+    margin: 0 auto;
+}
+
+#start_adventure {
+    height: 669px;
+    background-image: url("../assets/img/start_adventure_bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#start_adventure header {
+    height: 119px;
+    width: 
+    padding-left: 141px;
+    padding-right: 141px;
+}
