@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6d3d6ae31c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Explore</title>
 </head>
 <body>
@@ -13,6 +15,43 @@
                 lorem ipsum
             </header>
         </section>
+        <section id="pack_and_go">
+            <h2>Pack and Go<br>Awesome Tours</h2>
+            <ul>
+                <li>
+                    <img src="assets/img/img1.png" alt="" />
+                    <span>7 Day + 6 Night</span>
+                    <span class="cities">New York + Paris</span>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    <span class="price">&dollar;600</span>
+                    <a class="btn" title="Book Now">Book Now</a>
+                </li>
+                <li><img src="assets/img/img1.png" alt="" /></li>
+                <li><img src="assets/img/img1.png" alt="" /></li>
+            </ul>
+        </section>
+        <section id="socials">
+            <ul>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-google-plus-g"></i></li>
+                <li><i class="fab fa-google-wallet"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-facebook-f"></i></li>
+            </ul>
+        </section>
+        <footer>
+            Copyright <span id="year"></span>, All Right Reserved
+        </footer>
     </div>
+    <script>
+        function getYear() {
+          var d = new Date();
+          var n = d.getFullYear();
+          document.getElementById("year").innerHTML = n;
+        }
+        getYear();
+    </script>
 </body>
 </html>
